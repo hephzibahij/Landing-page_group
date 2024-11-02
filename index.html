@@ -1,0 +1,452 @@
+<style>
+  .request-now {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  .request-now:hover {
+    background-color: blue;
+    opacity: 1;
+  }
+  .request-now:active {
+    background-color: red;
+    opacity: 0.5;
+  }
+  .add-cart {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 55px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .github {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .get-started {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 112px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .linkedin {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .save {
+    background-color: white;
+    color: blue;
+    border: 1px solid #1a73e8;
+    border-color: blue;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .amazon {
+   color: rgb(0, 113, 133);
+   font-size: 16px;
+   text-decoration: none;
+  }
+  .amazon:hover {
+    text-decoration: underline;
+  }
+  .nike {
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .stock {
+    color: green;
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .delivery {
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  .cart {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .buy {
+    background-color: blueviolet;
+    color: black;
+    border: none;
+    padding: 11px 36px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .back {
+    padding: 11px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .next {
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .stretch {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    height: 40px;
+    weight: 110px;
+  }
+  .shadow {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.3);
+    transition: box-shadow 0.2 ease-in-out;  
+  }
+  .shadow:hover {
+    background-color: red;
+    opacity: 1;
+  }
+  .One {
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .night {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  
+  }
+  .freedom {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  .eight {
+    color: red;
+    font-family: Arial;
+    font-size: 18px;
+  }
+  .nine {
+    font-family: Verdana;
+    color: black;
+    font-weight: bold;
+  }
+  .little{
+    font-size: 14px;
+    color: gray;
+  }
+  .mighty {
+    font-size: 16px;
+  }
+  .figure {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .figure:hover {
+    background-color: blue;
+    opacity: 1;
+  }
+  .milk {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  .fish {
+    font-family: Arial;
+    font-size: 16px;
+    color: gray;
+  }
+  .zinah {
+    font-family: Arial;
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+  }
+  .height {
+    color: orange;
+    font-size: 14px;
+  }
+  .night {
+    font-size: 18px;
+
+  }
+  .fifty {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .heading {
+    font-size: 16px;
+    color: black;
+  }
+  .address {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+  .address:hover {
+    background-color: yellow;
+    opacity: 1;
+  }
+  .dollars {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .numbers {
+   color: gray; 
+  }
+  .pounds {
+    color: green;
+    font-size: 17px;
+  }
+  .cent {
+    color: green;
+  }
+  .naira {
+    font-size: 17px;
+  }
+  .title {
+    color: red;
+  }
+  .ash {
+    font-family: Arial;
+    font-size: 18px;
+  }
+  .speak {
+    color: gray;
+  }
+  .fash{
+    font-size: 18px;
+    font-family: Arial;
+  }
+  .fit {
+    color: blue;
+  }
+  .domain {
+    width: 300px;
+    object-fit: contain;
+    object-position: left;
+    border-width: 2px;
+    border-style: none;
+    border-style: solid;
+  }
+  .example{
+    width: 200px;
+    border-radius: 15px;
+  }
+  .gentle {
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .jean {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .search-bar {
+    border-radius: 8px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    
+  }
+  .text {
+    border: none;
+    padding: 8px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.1);
+  }
+  .new {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+  .center {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .agent {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+  }
+  .agree {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 69px;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+  }
+  .give {
+    object-fit: cover;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+
+  }
+  .small {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    flex: 1;
+  }
+  .settings {
+    background-color: #1a73e8;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 8px 19px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  .Names {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .EMails {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .survey {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .yes {
+    font-size: 10px;
+  }
+  .no {
+    font-size: 10px;
+  }
+
+
+</style>
+<button class="request-now">Request now</button>
+<button class="add-cart">ADD TO CHART</button>
+<button class="github">Sign Up</button>
+<button class="get-started">Get started</button>
+<button class="linkedin">Apply on company website</button>
+<button class="save">Save</button>
+
+<a href="amazon">Back to Amazon</a>
+<p class="nike">Nike back running shoe</p>
+<p class="stock">$39 - in stock.</p>
+<p class="delivery">Free Delivery tommorow.</p>
+<button class="cart">Add to cart</button>
+<button class="buy">Buy Now</button>
+<button class="back">Back</button>
+<a href="1">1</a>
+<a href="2">2</a>
+<a href="3">3</a>
+<button class="next">Next</button>
+<button class="stretch">Stretch</button>
+<button class="shadow">Shadow</button>
+<button class="One">One</button>
+<p class="night">This is Tahoma Font</p>
+<p class="freedom">Biggest Deal of the year</p>
+<p class="eight">Sales end Tuesday</p>
+<strong class="nine">html css course <span class="little">Beginneer to pro</span></strong>
+<p class="mighty">In the course , you will learn the skill to become a developer</p>
+<button class="figure">Get started</button>
+<p class="milk">Shopping for your business</p>
+<p class="fish">See how Apple at work can help</p>
+<a href="zinah">Learn More ></a>
+<span class="height">New</span>
+<p class="night">MacBook Pro</p>
+<p class="fifty">Supercharged for pros.</p>
+<p class="heading">From $1999</p>
+<button class="address">Buy</button>
+<p class="dollars">1,049.61 <span class="numbers">USD</span></p>
+<p class="pounds">+18.05(1.75%)<span class="cent">Today</span></p>
+<p class="naira">After hours 1,048.00<span class="title">-1.61(0.15%)</span></p>
+<strong class="ash">FreeCodeCamp.org<span classs="speak">@freeCodeCamp 1h</span></strong>
+<p class="fash">As a web developer, you'll want to make your project easy to use and navigate around .Here</p>
+<a href="fit">@chp__it</a>
+<img  class="domain" src="domain.jpeg">
+<img class="example" src="domain.jpeg">
+<img class="gentle" src="domain.jpeg">
+<img class="jean" src="domain.jpeg">
+<input class="search-bar" type="text" placeholder="Search">
+<input type="text" placeholder="Search google or type the url">
+<input type="text" placeholder="Search">
+<input class="new" type="text" placeholder="Search">
+<input  class="center" type="email" placeholder="Email">
+<p class="agent">By clicking agree and join, you agree to the privacy policy</p>
+<button class="agree">Agree and join</button>
+<img class="give" src="domain.jpeg">
+<input class="small" type="text" placeholder="what is happening">
+<button class="settings">Tweet</button>
+<input class="Names" type="text" placeholder="Name">
+<input class="EMails" type="text" placeholder="Enter the Email">
+<p class="survey">Thank for chatting with our customer support. Would you like to take our quick survey</p>
+<button class="yes">Yes</button>
+<button class="no">No</button>
+<img class="google" src="domain.jpeg">
